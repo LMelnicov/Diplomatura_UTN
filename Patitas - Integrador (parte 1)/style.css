@@ -1,0 +1,201 @@
+/*        Tipografias          */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+/* titulos: font-family: "Averia Libre", system-ui; */
+/* texto: font-family: "Google Sans Flex", sans-serif; */
+
+/*        Home (index)          */
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #61001D;
+    border: #61001D solid 0.5px;
+}
+
+.logo i {
+    color: #f0e7c7;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    background-color: #f0e7c7;
+    border: #61001D solid 0.5px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    width: 90%;
+    height: 80px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    position: fixed;
+    z-index: 1000;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.nav-link {
+    color: #61001D;
+    margin-left: 30px;
+}
+
+.navbar .nav-link.active {
+    color: #61001D;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #61001D;
+    font-weight: bold;
+}
+
+.titulo {
+    color: #61001D;
+    font-size: 1.3rem;
+    font-family: "Averia Libre", system-ui;
+}
+
+.imagen-inicio {
+    position: relative;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.texto-inicio {
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    color: #61001D;
+    font-weight: bold;
+    max-width: 1000px;
+    font-family: "Averia Libre", system-ui;
+}
+
+.texto-inicio h1 {
+    font-size: 4rem;
+}
+
+.texto-inicio p {
+    font-size: 2rem;
+}
+
+.contenido {
+    background-color: #f0e7c7;
+    border-top: #61001D solid 0.5px;
+}
+
+
+.contenido-titulo {
+    font-size: 4rem;
+    font-family: "Averia Libre", system-ui;
+    margin-top: 250px;
+    color: #61001D;
+}
+
+.contenido-texto {
+    font-size: 1.5rem;
+    padding: 40px;
+    font-family: "Google Sans Flex", sans-serif;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    background-color: #61001D;
+    color: white;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #61001D;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.logo-footer {
+    width: 90px;
+    height: 90px;
+    border: #f7e5a6 solid 0.5px;
+    margin-top: 30px;
+}
+
+.logo-footer i {
+    font-size: 3.0rem;
+}
+
+.titulo-footer {
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.footer h4 {
+    color: #f7e5a6;
+    margin-bottom: 20px;
+    font-family: "Averia Libre", system-ui;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.footer a:hover {
+    color: #f7e5a6;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, .2);
+}
+
+/*        Servicios          */
+
+.hero-servicios {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+
+
+.texto-servicios h1 {
+    color: #61001D;
+    font-size: 7rem;
+    line-height: 0.9;
+    font-weight: bold;
+    font-family: "Averia Libre", system-ui;
+}
+
+
+.texto-servicios p {
+    color: #61001D;
+    font-size: 1.2rem;
+    max-width: 550px;
+    margin-top: 50px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+
+.imagen-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagen-servicios {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 40px;
+    border: #61001D solid 3px;
+}

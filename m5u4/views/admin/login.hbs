@@ -1,0 +1,21 @@
+<div class="container w-100">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+            <form action="/admin/login" method="post">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña"
+                        name="password">
+                </div>
+                <button class="btn btn-patitas w-100" type="submit">
+                    Ingresar
+                </button>
+            </form>
+            {{#if error}}
+                <p>El usuario o contraseña son incorrectos</p>
+            {{/if}}
+        </div>
+    </div>
+</div>
